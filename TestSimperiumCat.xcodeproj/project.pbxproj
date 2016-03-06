@@ -16,6 +16,17 @@
 		F0A2D4B01C8BA42200E36FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A2D4AF1C8BA42200E36FC7 /* Assets.xcassets */; };
 		F0A2D4B31C8BA42200E36FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A2D4B11C8BA42200E36FC7 /* LaunchScreen.storyboard */; };
 		F0A2D4BE1C8BA42200E36FC7 /* TestSimperiumCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2D4BD1C8BA42200E36FC7 /* TestSimperiumCatTests.m */; };
+		F0A2D4D51C8BDD4800E36FC7 /* libSimperium.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A2D4D01C8BDD3200E36FC7 /* libSimperium.a */; };
+		F0A2D4D71C8BDD7500E36FC7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A2D4D61C8BDD7500E36FC7 /* CoreData.framework */; };
+		F0A2D4D91C8BDD7E00E36FC7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A2D4D81C8BDD7E00E36FC7 /* SystemConfiguration.framework */; };
+		F0A2D4DB1C8BDD8F00E36FC7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A2D4DA1C8BDD8F00E36FC7 /* MobileCoreServices.framework */; };
+		F0A2D4DD1C8BDDA600E36FC7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A2D4DC1C8BDDA600E36FC7 /* CFNetwork.framework */; };
+		F0A2D4DF1C8BDDD400E36FC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A2D4DE1C8BDDD400E36FC7 /* Security.framework */; };
+		F0A2D4E11C8BDDDB00E36FC7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A2D4E01C8BDDDB00E36FC7 /* libz.tbd */; };
+		F0A2D4E31C8BDDE400E36FC7 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A2D4E21C8BDDE400E36FC7 /* libicucore.tbd */; };
+		F0A2D4E81C8BDE7500E36FC7 /* Event+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2D4E51C8BDE7500E36FC7 /* Event+CoreDataProperties.m */; };
+		F0A2D4E91C8BDE7500E36FC7 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2D4E71C8BDE7500E36FC7 /* Event.m */; };
+		F0A2D4EC1C8BE18E00E36FC7 /* NSDecimalNumber+LDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2D4EB1C8BE18E00E36FC7 /* NSDecimalNumber+LDUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +36,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = F0A2D4991C8BA42200E36FC7;
 			remoteInfo = TestSimperiumCat;
+		};
+		F0A2D4CF1C8BDD3200E36FC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A2D4C81C8BDD3100E36FC7 /* Simperium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 264CD8FB135DFD7A00C51BAD;
+			remoteInfo = Simperium;
+		};
+		F0A2D4D11C8BDD3200E36FC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A2D4C81C8BDD3100E36FC7 /* Simperium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 264CD908135DFD7A00C51BAD;
+			remoteInfo = IntegrationTests;
+		};
+		F0A2D4D31C8BDD3200E36FC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A2D4C81C8BDD3100E36FC7 /* Simperium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5E8D33A1831237500AE2C5A;
+			remoteInfo = UnitTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -45,6 +77,20 @@
 		F0A2D4B91C8BA42200E36FC7 /* TestSimperiumCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSimperiumCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A2D4BD1C8BA42200E36FC7 /* TestSimperiumCatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSimperiumCatTests.m; sourceTree = "<group>"; };
 		F0A2D4BF1C8BA42200E36FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A2D4C81C8BDD3100E36FC7 /* Simperium.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Simperium.xcodeproj; path = "../../Downloads/simperium-ios-0.8.12/Simperium.xcodeproj"; sourceTree = "<group>"; };
+		F0A2D4D61C8BDD7500E36FC7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F0A2D4D81C8BDD7E00E36FC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F0A2D4DA1C8BDD8F00E36FC7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F0A2D4DC1C8BDDA600E36FC7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F0A2D4DE1C8BDDD400E36FC7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F0A2D4E01C8BDDDB00E36FC7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F0A2D4E21C8BDDE400E36FC7 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		F0A2D4E41C8BDE7500E36FC7 /* Event+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Event+CoreDataProperties.h"; sourceTree = "<group>"; };
+		F0A2D4E51C8BDE7500E36FC7 /* Event+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Event+CoreDataProperties.m"; sourceTree = "<group>"; };
+		F0A2D4E61C8BDE7500E36FC7 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		F0A2D4E71C8BDE7500E36FC7 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		F0A2D4EA1C8BE18E00E36FC7 /* NSDecimalNumber+LDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+LDUtils.h"; sourceTree = "<group>"; };
+		F0A2D4EB1C8BE18E00E36FC7 /* NSDecimalNumber+LDUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+LDUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +98,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A2D4E31C8BDDE400E36FC7 /* libicucore.tbd in Frameworks */,
+				F0A2D4E11C8BDDDB00E36FC7 /* libz.tbd in Frameworks */,
+				F0A2D4DF1C8BDDD400E36FC7 /* Security.framework in Frameworks */,
+				F0A2D4DD1C8BDDA600E36FC7 /* CFNetwork.framework in Frameworks */,
+				F0A2D4DB1C8BDD8F00E36FC7 /* MobileCoreServices.framework in Frameworks */,
+				F0A2D4D91C8BDD7E00E36FC7 /* SystemConfiguration.framework in Frameworks */,
+				F0A2D4D71C8BDD7500E36FC7 /* CoreData.framework in Frameworks */,
+				F0A2D4D51C8BDD4800E36FC7 /* libSimperium.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +122,18 @@
 		F0A2D4911C8BA42200E36FC7 = {
 			isa = PBXGroup;
 			children = (
+				F0A2D4E41C8BDE7500E36FC7 /* Event+CoreDataProperties.h */,
+				F0A2D4E51C8BDE7500E36FC7 /* Event+CoreDataProperties.m */,
+				F0A2D4E61C8BDE7500E36FC7 /* Event.h */,
+				F0A2D4E71C8BDE7500E36FC7 /* Event.m */,
+				F0A2D4E21C8BDDE400E36FC7 /* libicucore.tbd */,
+				F0A2D4E01C8BDDDB00E36FC7 /* libz.tbd */,
+				F0A2D4DE1C8BDDD400E36FC7 /* Security.framework */,
+				F0A2D4DC1C8BDDA600E36FC7 /* CFNetwork.framework */,
+				F0A2D4DA1C8BDD8F00E36FC7 /* MobileCoreServices.framework */,
+				F0A2D4D81C8BDD7E00E36FC7 /* SystemConfiguration.framework */,
+				F0A2D4D61C8BDD7500E36FC7 /* CoreData.framework */,
+				F0A2D4C81C8BDD3100E36FC7 /* Simperium.xcodeproj */,
 				F0A2D49C1C8BA42200E36FC7 /* TestSimperiumCat */,
 				F0A2D4BC1C8BA42200E36FC7 /* TestSimperiumCatTests */,
 				F0A2D49B1C8BA42200E36FC7 /* Products */,
@@ -98,6 +164,8 @@
 				F0A2D4B41C8BA42200E36FC7 /* Info.plist */,
 				F0A2D4A31C8BA42200E36FC7 /* TestSimperiumCat.xcdatamodeld */,
 				F0A2D49D1C8BA42200E36FC7 /* Supporting Files */,
+				F0A2D4EA1C8BE18E00E36FC7 /* NSDecimalNumber+LDUtils.h */,
+				F0A2D4EB1C8BE18E00E36FC7 /* NSDecimalNumber+LDUtils.m */,
 			);
 			path = TestSimperiumCat;
 			sourceTree = "<group>";
@@ -117,6 +185,16 @@
 				F0A2D4BF1C8BA42200E36FC7 /* Info.plist */,
 			);
 			path = TestSimperiumCatTests;
+			sourceTree = "<group>";
+		};
+		F0A2D4C91C8BDD3100E36FC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2D4D01C8BDD3200E36FC7 /* libSimperium.a */,
+				F0A2D4D21C8BDD3200E36FC7 /* IntegrationTests.xctest */,
+				F0A2D4D41C8BDD3200E36FC7 /* UnitTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +264,12 @@
 			mainGroup = F0A2D4911C8BA42200E36FC7;
 			productRefGroup = F0A2D49B1C8BA42200E36FC7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F0A2D4C91C8BDD3100E36FC7 /* Products */;
+					ProjectRef = F0A2D4C81C8BDD3100E36FC7 /* Simperium.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F0A2D4991C8BA42200E36FC7 /* TestSimperiumCat */,
@@ -193,6 +277,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F0A2D4D01C8BDD3200E36FC7 /* libSimperium.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSimperium.a;
+			remoteRef = F0A2D4CF1C8BDD3200E36FC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0A2D4D21C8BDD3200E36FC7 /* IntegrationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IntegrationTests.xctest;
+			remoteRef = F0A2D4D11C8BDD3200E36FC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0A2D4D41C8BDD3200E36FC7 /* UnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.xctest;
+			remoteRef = F0A2D4D31C8BDD3200E36FC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F0A2D4981C8BA42200E36FC7 /* Resources */ = {
@@ -220,10 +328,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A2D4AB1C8BA42200E36FC7 /* DetailViewController.m in Sources */,
+				F0A2D4EC1C8BE18E00E36FC7 /* NSDecimalNumber+LDUtils.m in Sources */,
 				F0A2D4A81C8BA42200E36FC7 /* MasterViewController.m in Sources */,
+				F0A2D4E81C8BDE7500E36FC7 /* Event+CoreDataProperties.m in Sources */,
 				F0A2D4A51C8BA42200E36FC7 /* TestSimperiumCat.xcdatamodeld in Sources */,
 				F0A2D4A21C8BA42200E36FC7 /* AppDelegate.m in Sources */,
 				F0A2D49F1C8BA42200E36FC7 /* main.m in Sources */,
+				F0A2D4E91C8BDE7500E36FC7 /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestSimperiumCat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LingsDesigns.TestSimperiumCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestSimperiumCat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LingsDesigns.TestSimperiumCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

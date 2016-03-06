@@ -27,6 +27,10 @@
     UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
     MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    
+    self.simperium = [[Simperium alloc] initWithModel:self.managedObjectModel context:self.managedObjectContext coordinator:self.persistentStoreCoordinator];
+    
+    [self.simperium authenticateWithAppID:@"scratch-gap-309" APIKey:@"c8230b1a20e34c29b4a804edf8c702fb" rootViewController:self.window.rootViewController];
     return YES;
 }
 
@@ -126,7 +130,7 @@
         return nil;
     }
     _managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
-    [_managedObjectContext setPersistentStoreCoordinator:coordinator];
+//    [_managedObjectContext setPersistentStoreCoordinator:coordinator];
     return _managedObjectContext;
 }
 

@@ -43,7 +43,10 @@
     // If appropriate, configure the new managed object.
     // Normally you should use accessor methods, but using KVC here avoids the need to add a custom class to the template.
     [newManagedObject setValue:[NSDate date] forKey:@"timeStamp"];
-        
+    [newManagedObject setValue:[NSDecimalNumber decimalNumberWithMantissa:12 exponent:0 isNegative:NO] forKey:@"number"];
+
+    
+    
     // Save the context.
     NSError *error = nil;
     if (![context save:&error]) {
@@ -52,6 +55,8 @@
         NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
         abort();
     }
+    
+    NSLog(@"create event num: %@", [newManagedObject valueForKey:@"number"]);
 }
 
 #pragma mark - Segues
